@@ -1,0 +1,2284 @@
+[
+    {
+        "name": "Pop Star 1",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 113,
+                "y": 70
+            }
+        ],
+        "sections": [
+            {"name": "Pop Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar1, $hasAnyBomb"]},
+            {"name": "Pop Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Complete","access_rules": ["@canReachPopStar1"]}
+        ]
+    },
+    {
+        "name": "Pop Star 1 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 113,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Pop Star 1 - Cake","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Maxim Tomato 1","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Maxim Tomato 2","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Meat","access_rules": ["@canReachPopStar1"]}
+        ]
+    },
+    {
+        "name": "Pop Star 1 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 146,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Pop Star 1 - Star 1","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Star 2","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Star 3","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Star 4","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Star 5","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Star 6","access_rules": ["@canReachPopStar1"]},
+            {"name": "Pop Star 1 - Star 7","access_rules": ["@canReachPopStar1"]}
+        ]
+    },
+    {
+        "name": "Pop Star 2",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 194,
+                "y": 70
+            }
+        ],
+        "sections": [
+            {"name": "Pop Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Complete","access_rules": ["@canReachPopStar2"]}
+        ]
+    },
+    {
+        "name": "Pop Star 2 - 1-Ups",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 224,
+                "y": 70
+            }
+        ],
+        "chest_opened_img": "images/ui/1up found.png",
+        "chest_unopened_img": "images/ui/1up.png",
+        "visibility_rules": ["setting_1up_sanity"],
+        "sections": [
+            {"name": "Pop Star 2 - 1-Up","access_rules": ["@canReachPopStar2"]}
+        ]
+    },
+    {
+        "name": "Pop Star 2 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 194,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Pop Star 2 - Cake","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Maxim Tomato 1","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Maxim Tomato 2","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Sandwich","access_rules": ["@canReachPopStar2"]}
+        ]
+    },
+    {
+        "name": "Pop Star 2 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 224,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Pop Star 2 - Star 1","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 2","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 3","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 4","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 5","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 6","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 7","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 8","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 9","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 10","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 11","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 12","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 13","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 14","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 15","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 16","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 17","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 18","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 19","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 20","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 21","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 22","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 23","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 24","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 25","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 26","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 27","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 28","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 29","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 30","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 31","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 32","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 33","access_rules": ["@canReachPopStar2"]},
+            {"name": "Pop Star 2 - Star 34","access_rules": ["@canReachPopStar2"]}
+        ]
+    },
+    {
+        "name": "Pop Star 3",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 113,
+                "y": 151
+            }
+        ],
+        "sections": [
+            {"name": "Pop Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar3, $hasGreatCutter"]},
+            {"name": "Pop Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Complete","access_rules": ["@canReachPopStar3"]}
+        ]
+    },
+    {
+        "name": "Pop Star 3 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 113,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Pop Star 3 - Adeleine Gift","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Cake","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Maxim Tomato","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Meat","access_rules": ["@canReachPopStar3"]}
+        ]
+    },
+    {
+        "name": "Pop Star 3 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 146,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Pop Star 3 - Star 1","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 2","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 3","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 4","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 5","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 6","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 7","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 8","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 9","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 10","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 11","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 12","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 13","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 14","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 15","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Star 16","access_rules": ["@canReachPopStar3"]}
+        ]
+    },
+    {
+        "name": "Pop Star Boss",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 194,
+                "y": 151
+            }
+        ],
+        "access_rules": ["@canReachPopStarBoss"],
+        "sections": [
+            {"name": "Pop Star - Boss Defeated"}
+        ]
+    },
+    {
+        "name": "Rock Star 1",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 368,
+                "y": 70
+            }
+        ],
+        "sections": [
+            {"name": "Rock Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar1WaddleDee, $hasGeokinesis"]},
+            {"name": "Rock Star 1 - Complete","access_rules": ["@canReachRockStar1WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Rock Star 1 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 368,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Rock Star 1 - Cake","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Ice Cream 1","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Ice Cream 2","access_rules": ["@canReachRockStar1WaddleDee"]},
+            {"name": "Rock Star 1 - Meat","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Sandwich","access_rules": ["@canReachRockStar1"]}
+        ]
+    },
+    {
+        "name": "Rock Star 1 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 399,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Rock Star 1 - Star 1","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 2","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 3","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 4","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 5","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 6","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 7","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 8","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 9","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 10","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 11","access_rules": ["@canReachRockStar1"]},
+            {"name": "Rock Star 1 - Star 12","access_rules": ["@canReachRockStar1WaddleDee"]},
+            {"name": "Rock Star 1 - Star 13","access_rules": ["@canReachRockStar1WaddleDee"]},
+            {"name": "Rock Star 1 - Star 14","access_rules": ["@canReachRockStar1WaddleDee"]},
+            {"name": "Rock Star 1 - Star 15","access_rules": ["@canReachRockStar1WaddleDee"]},
+            {"name": "Rock Star 1 - Star 16","access_rules": ["@canReachRockStar1WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Rock Star 2",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 447,
+                "y": 70
+            }
+        ],
+        "sections": [
+            {"name": "Rock Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Complete","access_rules": ["@canReachRockStar2KingDedede"]}
+        ]
+    },
+    {
+        "name": "Rock Star 2 - 1-Ups",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 478,
+                "y": 70
+            }
+        ],
+        "chest_opened_img": "images/ui/1up found.png",
+        "chest_unopened_img": "images/ui/1up.png",
+        "visibility_rules": ["setting_1up_sanity"],
+        "sections": [
+            {"name": "Rock Star 2 - 1-Up 1","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - 1-Up 2","access_rules": ["@canReachRockStar2"]}
+        ]
+    },
+    {
+        "name": "Rock Star 2 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 447,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Rock Star 2 - Cake 1","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Cake 2","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Cake 3","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Ice Cream 1","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Ice Cream 2","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Maxim Tomato 1","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Maxim Tomato 2","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Sandwich 1","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Sandwich 2","access_rules": ["@canReachRockStar2KingDedede"]}
+        ]
+    },
+    {
+        "name": "Rock Star 2 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 478,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Rock Star 2 - Star 1","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 2","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 3","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 4","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 5","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 6","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 7","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 8","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 9","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 10","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 11","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 12","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 13","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 14","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 15","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 16","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 17","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 18","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 19","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 20","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 21","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 22","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 23","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 24","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 25","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 26","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 27","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 28","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 29","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Star 30","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Star 31","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Star 32","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Star 33","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Star 34","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Star 35","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Star 36","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Star 37","access_rules": ["@canReachRockStar2KingDedede"]},
+            {"name": "Rock Star 2 - Star 38","access_rules": ["@canReachRockStar2KingDedede"]}
+        ]
+    },
+    {
+        "name": "Rock Star 3",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 295,
+                "y": 151
+            }
+        ],
+        "sections": [
+            {"name": "Rock Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar3, $hasAnyStone"]},
+            {"name": "Rock Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Complete","access_rules": ["@canReachRockStar3"]}
+        ]
+    },
+    {
+        "name": "Rock Star 3 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 295,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Rock Star 3 - Cake","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Ice Cream","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Meat","access_rules": ["@canReachRockStar3"]}
+        ]
+    },
+    {
+        "name": "Rock Star 3 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 323,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Rock Star 3 - Star 1","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 2","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 3","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 4","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 5","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 6","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 7","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 8","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 9","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 10","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 11","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 12","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 13","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 14","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 15","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 16","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 17","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 18","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 19","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 20","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 21","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 22","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 23","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 24","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 25","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 26","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 27","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 28","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 29","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 30","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 31","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 32","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 33","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 34","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 35","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 36","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 37","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 38","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 39","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 40","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 41","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 42","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 43","access_rules": ["@canReachRockStar3"]},
+            {"name": "Rock Star 3 - Star 44","access_rules": ["@canReachRockStar3"]}
+        ]
+    },
+    {
+        "name": "Rock Star 4",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 368,
+                "y": 151
+            }
+        ],
+        "sections": [
+            {"name": "Rock Star 4 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar4, $hasLightbulb"]},
+            {"name": "Rock Star 4 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Complete","access_rules": ["@canReachRockStar4"]}
+        ]
+    },
+    {
+        "name": "Rock Star 4 - 1-Ups",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 399,
+                "y": 151
+            }
+        ],
+        "chest_opened_img": "images/ui/1up found.png",
+        "chest_unopened_img": "images/ui/1up.png",
+        "visibility_rules": ["setting_1up_sanity"],
+        "sections": [
+            {"name": "Rock Star 4 - 1-Up","access_rules": ["@canReachRockStar4"]}
+        ]
+    },
+    {
+        "name": "Rock Star 4 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 368,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Rock Star 4 - Ice Cream","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Maxim Tomato","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Meat","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Sandwich","access_rules": ["@canReachRockStar4"]}
+        ]
+    },
+    {
+        "name": "Rock Star 4 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 399,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Rock Star 4 - Star 1","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 2","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 3","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 4","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 5","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 6","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 7","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 8","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 9","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 10","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 11","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 12","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 13","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 14","access_rules": ["@canReachRockStar4"]},
+            {"name": "Rock Star 4 - Star 15","access_rules": ["@canReachRockStar4"]}
+        ]
+    },
+    {
+        "name": "Rock Star Boss",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 447,
+                "y": 151
+            }
+        ],
+        "sections": [
+            {"name": "Rock Star - Boss Defeated","access_rules": ["@canReachRockStarBoss"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 1",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 625,
+                "y": 70
+            }
+        ],
+        "sections": [
+            {"name": "Aqua Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar1, $hasExplodingSnowman"]},
+            {"name": "Aqua Star 1 - Complete","access_rules": ["@canReachAquaStar1"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 1 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 625,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Aqua Star 1 - Adeleine Gift","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Cake","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Ice Cream","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Maxim Tomato","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Meat 1","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Meat 2","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Meat 3","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Sandwich","access_rules": ["@canReachAquaStar1"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 1 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 657,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Aqua Star 1 - Star 1","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 2","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 3","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 4","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 5","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 6","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 7","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 8","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 9","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 10","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 11","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 12","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 13","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 14","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 15","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 16","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 17","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 18","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 19","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 20","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 21","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 22","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 23","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 24","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 25","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 26","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 27","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 28","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 29","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 30","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 31","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 32","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 33","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 34","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Star 35","access_rules": ["@canReachAquaStar1, $hasExplodingSnowman"]},
+            {"name": "Aqua Star 1 - Star 36","access_rules": ["@canReachAquaStar1, $hasExplodingSnowman"]},
+            {"name": "Aqua Star 1 - Star 37","access_rules": ["@canReachAquaStar1, $hasExplodingSnowman"]},
+            {"name": "Aqua Star 1 - Star 38","access_rules": ["@canReachAquaStar1, $hasExplodingSnowman"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 2",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 703,
+                "y": 70
+            }
+        ],
+        "sections": [
+            {"name": "Aqua Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar2, $hasVolcano"]},
+            {"name": "Aqua Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Complete","access_rules": ["@canReachAquaStar2WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 2 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 703,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Aqua Star 2 - Cake 1","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Cake 2","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Ice Cream 1","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Ice Cream 2","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Ice Cream 3","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Meat 1","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Meat 2","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Meat 3","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Meat 4","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Meat 5","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Sandwich","access_rules": ["@canReachAquaStar2WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 2 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 734,
+                "y": 102
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Aqua Star 2 - Star 1","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Star 2","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Star 3","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Star 4","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Star 5","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Star 6","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Star 7","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Star 8","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 9","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 10","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 11","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 12","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 13","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 14","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 15","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 16","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 17","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 18","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 19","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 20","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 21","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 22","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 23","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 24","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 25","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 26","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 27","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 28","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 29","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 30","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 31","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 32","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 33","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 34","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 35","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 36","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 37","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 38","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 39","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 40","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 41","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 42","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 43","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 44","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 45","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 46","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 47","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 48","access_rules": ["@canReachAquaStar2WaddleDee"]},
+            {"name": "Aqua Star 2 - Star 49","access_rules": ["@canReachAquaStar2WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 3",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 550,
+                "y": 151
+            }
+        ],
+        "sections": [
+            {"name": "Aqua Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar3, $hasShurikens"]},
+            {"name": "Aqua Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar3KingDedede, $hasStoneFriends"]},
+            {"name": "Aqua Star 3 - Complete","access_rules": ["@canReachAquaStar3KingDedede"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 3 - 1-Ups",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 581,
+                "y": 151
+            }
+        ],
+        "chest_opened_img": "images/ui/1up found.png",
+        "chest_unopened_img": "images/ui/1up.png",
+        "sections": [
+            {"name": "Aqua Star 3 - 1-Up","access_rules": ["@canReachAquaStar3KingDedede, $hasStoneFriends"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 3 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 550,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Aqua Star 3 - Cake 1","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Cake 2","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Maxim Tomato","access_rules": ["@canReachAquaStar3"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 3 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 581,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Aqua Star 3 - Star 1","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 2","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 3","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 4","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 5","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 6","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 7","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 8","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 9","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 10","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 11","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 12","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 13","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 14","access_rules": ["@canReachAquaStar3"]},
+            {"name": "Aqua Star 3 - Star 15","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 16","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 17","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 18","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 19","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 20","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 21","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 22","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 23","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 24","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 25","access_rules": ["@canReachAquaStar3KingDedede"]},
+            {"name": "Aqua Star 3 - Star 26","access_rules": ["@canReachAquaStar3KingDedede"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 4",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 625,
+                "y": 151
+            }
+        ],
+        "sections": [
+            {"name": "Aqua Star 4 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Complete","access_rules": ["@canReachAquaStar4"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 4 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 625,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Aqua Star 4 - Cake 1","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Ice Cream 1","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Ice Cream 2","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Meat","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Sandwich","access_rules": ["@canReachAquaStar4"]}
+        ]
+    },
+    {
+        "name": "Aqua Star 4 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 657,
+                "y": 182
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Aqua Star 4 - Star 1","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 2","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 3","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 4","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 5","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 6","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 7","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 8","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 9","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 10","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 11","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 12","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 13","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 14","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 15","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 16","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 17","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 18","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 19","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 20","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 21","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 22","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 23","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 24","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 25","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 26","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 27","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 28","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 29","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 30","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 31","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 32","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 33","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 34","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 35","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 36","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 37","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 38","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 39","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 40","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 41","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 42","access_rules": ["@canReachAquaStar4"]},
+            {"name": "Aqua Star 4 - Star 43","access_rules": ["@canReachAquaStar4"]}
+        ]
+    },
+    {
+        "name": "Aqua Star Boss",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 703,
+                "y": 151
+            }
+        ],
+        "sections": [
+            {"name": "Aqua Star - Boss Defeated","access_rules": ["@canReachAquaStarBoss"]}
+        ]
+    },
+    {
+        "name": "Neo Star 1",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 113,
+                "y": 279
+            }
+        ],
+        "sections": [
+            {"name": "Neo Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Complete","access_rules": ["@canReachNeoStar1"]}
+        ]
+    },
+    {
+        "name": "Neo Star 1 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 113,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Neo Star 1 - Cake 1","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Cake 2","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Cake 3","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Ice Cream 1","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Ice Cream 2","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Ice Cream 3","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Meat 1","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Sandwich 1","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Sandwich 2","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Sandwich 3","access_rules": ["@canReachNeoStar1"]}
+        ]
+    },
+    {
+        "name": "Neo Star 1 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 146,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Neo Star 1 - Star 1","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 2","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 3","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 4","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 5","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 6","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 7","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 8","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 9","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 10","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 11","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 12","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 13","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 14","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 15","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 16","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 17","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 18","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 19","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 20","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 21","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 22","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 23","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 24","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 25","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 26","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 27","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 28","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 29","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 30","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 31","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 32","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 33","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 34","access_rules": ["@canReachNeoStar1"]},
+            {"name": "Neo Star 1 - Star 35","access_rules": ["@canReachNeoStar1"]}
+        ]
+    },
+    {
+        "name": "Neo Star 2",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 194,
+                "y": 279
+            }
+        ],
+        "sections": [
+            {"name": "Neo Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar2WaddleDee, $hasDynamite"]},
+            {"name": "Neo Star 2 - Complete","access_rules": ["@canReachNeoStar2WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Neo Star 2 - 1-Ups",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 224,
+                "y": 279
+            }
+        ],
+        "chest_opened_img": "images/ui/1up found.png",
+        "chest_unopened_img": "images/ui/1up.png",
+        "visibility_rules": ["setting_1up_sanity"],
+        "sections": [
+            {"name": "Neo Star 2 - 1-Up 1","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - 1-Up 2","access_rules": ["@canReachNeoStar2WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Neo Star 2 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 194,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Neo Star 2 - Cake 1","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Cake 2","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Ice Cream 1","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Ice Cream 2","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Maxim Tomato","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Meat 1","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Meat 2","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Meat 3","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Meat 4","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Sandwich","access_rules": ["@canReachNeoStar2WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Neo Star 2 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 224,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Neo Star 2 - Star 1","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 2","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 3","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 4","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 5","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 6","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 7","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 8","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 9","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 10","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 11","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 12","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 13","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 14","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 15","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 16","access_rules": ["@canReachNeoStar2"]},
+            {"name": "Neo Star 2 - Star 17","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 18","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 19","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 20","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 21","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 22","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 23","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 24","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 25","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 26","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 27","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 28","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 29","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 30","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 31","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 32","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 33","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 34","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 35","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 36","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 37","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 38","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 39","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 40","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 41","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 42","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 43","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 44","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 45","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 46","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 47","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 48","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 49","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 50","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 51","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 52","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 53","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 54","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 55","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 56","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 57","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 58","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 59","access_rules": ["@canReachNeoStar2WaddleDee"]},
+            {"name": "Neo Star 2 - Star 60","access_rules": ["@canReachNeoStar2WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Neo Star 3",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 40,
+                "y": 361
+            }
+        ],
+        "sections": [
+            {"name": "Neo Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar3, $hasAnyNeedle"]},
+            {"name": "Neo Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar3, $hasAdeleine"]},
+            {"name": "Neo Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Complete","access_rules": ["@canReachNeoStar3"]}
+        ]
+    },
+    {
+        "name": "Neo Star 3 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 40,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Neo Star 3 - Cake 1","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Cake 2","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Meat 1","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Meat 2","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Sandwich 1","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Sandwich 2","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Sandwich 3","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Sandwich 4","access_rules": ["@canReachNeoStar3"]}
+        ]
+    },
+    {
+        "name": "Neo Star 3 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 69,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Neo Star 3 - Star 1","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 10","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 11","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 12","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 13","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 14","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 15","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 16","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 17","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 2","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 3","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 4","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 5","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 6","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 7","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 8","access_rules": ["@canReachNeoStar3"]},
+            {"name": "Neo Star 3 - Star 9","access_rules": ["@canReachNeoStar3"]}
+        ]
+    },
+    {
+        "name": "Neo Star 4",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 113,
+                "y": 361
+            }
+        ],
+        "sections": [
+            {"name": "Neo Star 4 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar4KingDedede, $hasAnyIce"]},
+            {"name": "Neo Star 4 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Complete","access_rules": ["@canReachNeoStar4KingDedede"]}
+        ]
+    },
+    {
+        "name": "Neo Star 4 - 1-Ups",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 146,
+                "y": 361
+            }
+        ],
+        "chest_opened_img": "images/ui/1up found.png",
+        "chest_unopened_img": "images/ui/1up.png",
+        "visibility_rules": ["setting_1up_sanity"],
+        "sections": [
+            {"name": "Neo Star 4 - 1-Up","access_rules": ["@canReachNeoStar4KingDedede"]}
+        ]
+    },
+    {
+        "name": "Neo Star 4 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 113,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Neo Star 4 - Cake 1","access_rules": ["@canReachNeoStar4"]},
+            {"name": "Neo Star 4 - Cake 2","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Cake 3","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Cake 4","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Cake 5","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Ice Cream 1","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Ice Cream 2","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Ice Cream 3","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Meat 1","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Meat 2","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Sandwich 1","access_rules": ["@canReachNeoStar4"]},
+            {"name": "Neo Star 4 - Sandwich 2","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Sandwich 3","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Sandwich 4","access_rules": ["@canReachNeoStar4KingDedede"]}
+        ]
+    },
+    {
+        "name": "Neo Star 4 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 146,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Neo Star 4 - Star 1","access_rules": ["@canReachNeoStar4"]},
+            {"name": "Neo Star 4 - Star 2","access_rules": ["@canReachNeoStar4"]},
+            {"name": "Neo Star 4 - Star 3","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 4","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 5","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 6","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 7","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 8","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 9","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 10","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 11","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 12","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 13","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 14","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 15","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 16","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 17","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 18","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 19","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 20","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 21","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 22","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 23","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 24","access_rules": ["@canReachNeoStar4KingDedede"]},
+            {"name": "Neo Star 4 - Star 25","access_rules": ["@canReachNeoStar4KingDedede"]}
+        ]
+    },
+    {
+        "name": "Neo Star Boss",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 194,
+                "y": 361
+            }
+        ],
+        "sections": [
+            {"name": "Neo Star - Boss Defeated","access_rules": ["@canReachNeoStarBoss"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 1",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 368,
+                "y": 279
+            }
+        ],
+        "sections": [
+            {"name": "Shiver Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar1WaddleDee, $hasAnyBurn"]},
+            {"name": "Shiver Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Complete","access_rules": ["@canReachShiverStar1WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 1 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 368,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Shiver Star 1 - Cake 1","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Cake 2","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Cake 3","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Cake 4","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Ice Cream 1","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Ice Cream 2","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Ice Cream 3","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Ice Cream 4","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Ice Cream 5","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Meat 1","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Meat 2","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Meat 3","access_rules": ["@canReachShiverStar1WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 1 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 399,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Shiver Star 1 - Star 1","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 2","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 3","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 4","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 5","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 6","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 7","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 8","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 9","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 10","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 11","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 12","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 13","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 14","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 15","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 16","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 17","access_rules": ["@canReachShiverStar1"]},
+            {"name": "Shiver Star 1 - Star 18","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 19","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 20","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 21","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 22","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 23","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 24","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 25","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 26","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 27","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 28","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 29","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 30","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 31","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 32","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 33","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 34","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 35","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 36","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 37","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 38","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 39","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 40","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 41","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 42","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 43","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 44","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 45","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 46","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 47","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 48","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 49","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 50","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 51","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 52","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 53","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 54","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 55","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 56","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 57","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 58","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 59","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 60","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 61","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 62","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 63","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Star 64","access_rules": ["@canReachShiverStar1WaddleDee"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 2",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 447,
+                "y": 279
+            }
+        ],
+        "sections": [
+            {"name": "Shiver Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar2, $hasLightningRod"]},
+            {"name": "Shiver Star 2 - Complete","access_rules": ["@canReachShiverStar2"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 2 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 447,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Shiver Star 2 - Cake 1","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Ice Cream 1","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Ice Cream 2","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Meat 1","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Meat 2","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Sandwich 1","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Sandwich 2","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Sandwich 3","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Sandwich 4","access_rules": ["@canReachShiverStar2"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 2 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 478,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Shiver Star 2 - Star 1","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 2","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 3","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 4","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 5","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 6","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 7","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 8","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 9","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 10","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 11","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 12","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 13","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 14","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 15","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 16","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 17","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 18","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 19","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 20","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 21","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 22","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 23","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 24","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 25","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 26","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 27","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 28","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 29","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 30","access_rules": ["@canReachShiverStar2"]},
+            {"name": "Shiver Star 2 - Star 31","access_rules": ["@canReachShiverStar2"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 3",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 295,
+                "y": 361
+            }
+        ],
+        "sections": [
+            {"name": "Shiver Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar3, $hasAdeleine"]},
+            {"name": "Shiver Star 3 - Complete","access_rules": ["@canReachShiverStar3"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 3 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 295,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Shiver Star 3 - Cake 1","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Cake 2","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Cake 3","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Cake 4","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Cake 5","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Cake 6","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Ice Cream 1","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Ice Cream 2","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Ice Cream 3","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Ice Cream 4","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Meat 1","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Meat 2","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Meat 3","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Sandwich","access_rules": ["@canReachShiverStar3"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 3 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 323,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Shiver Star 3 - Star 1","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 2","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 3","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 4","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 5","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 6","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 7","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 8","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 9","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 10","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 11","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 12","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 13","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 14","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 15","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 16","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 17","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 18","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 19","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 20","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 21","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 22","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 23","access_rules": ["@canReachShiverStar3"]},
+            {"name": "Shiver Star 3 - Star 24","access_rules": ["@canReachShiverStar3"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 4",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 368,
+                "y": 361
+            }
+        ],
+        "sections": [
+            {"name": "Shiver Star 4 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar4, $hasDrill"]},
+            {"name": "Shiver Star 4 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar4KingDedede, $hasLightsaber"]},
+            {"name": "Shiver Star 4 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Complete","access_rules": ["@canReachShiverStar4KingDedede"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 4 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 368,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Shiver Star 4 - Cake 1","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Cake 2","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Cake 3","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Ice Cream 1","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Meat 1","access_rules": ["@canReachShiverStar4"]},
+            {"name": "Shiver Star 4 - Meat 2","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Meat 3","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Meat 4","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Meat 5","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Sandwich 1","access_rules": ["@canReachShiverStar4"]},
+            {"name": "Shiver Star 4 - Sandwich 2","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Sandwich 3","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Sandwich 4","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Sandwich 5","access_rules": ["@canReachShiverStar4KingDedede"]}
+        ]
+    },
+    {
+        "name": "Shiver Star 4 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 399,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Shiver Star 4 - Star 1","access_rules": ["@canReachShiverStar4"]},
+            {"name": "Shiver Star 4 - Star 2","access_rules": ["@canReachShiverStar4"]},
+            {"name": "Shiver Star 4 - Star 3","access_rules": ["@canReachShiverStar4"]},
+            {"name": "Shiver Star 4 - Star 4","access_rules": ["@canReachShiverStar4"]},
+            {"name": "Shiver Star 4 - Star 5","access_rules": ["@canReachShiverStar4"]},
+            {"name": "Shiver Star 4 - Star 6","access_rules": ["@canReachShiverStar4, $hasDrill"]},
+            {"name": "Shiver Star 4 - Star 7","access_rules": ["@canReachShiverStar4, $hasDrill"]},
+            {"name": "Shiver Star 4 - Star 8","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 9","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 10","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 11","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 12","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 13","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 14","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 15","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 16","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 17","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 18","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 19","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 20","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 21","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 22","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 23","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 24","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 25","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 26","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 27","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 28","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 29","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 30","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 31","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 32","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 33","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 34","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 35","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 36","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 37","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 38","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 39","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 40","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 41","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 42","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 43","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 44","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 45","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 46","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 47","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 48","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 49","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 50","access_rules": ["@canReachShiverStar4KingDedede"]},
+            {"name": "Shiver Star 4 - Star 51","access_rules": ["@canReachShiverStar4KingDedede"]}
+        ]
+    },
+    {
+        "name": "Shiver Star Boss",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 447,
+                "y": 361
+            }
+        ],
+        "sections": [
+            {"name": "Shiver Star - Boss Defeated","access_rules": ["@canReachShiverStarBoss"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 1",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 625,
+                "y": 279
+            }
+        ],
+        "sections": [
+            {"name": "Ripple Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar1, $hasExplodingGordo"]},
+            {"name": "Ripple Star 1 - Complete","access_rules": ["@canReachRippleStar1"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 1 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 625,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Ripple Star 1 - Cake 1","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Cake 2","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Maxim Tomato 1","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Maxim Tomato 2","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Meat 1","access_rules": ["@canReachRippleStar1"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 1 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 657,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Ripple Star 1 - Star 1","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Star 2","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Star 3","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Star 4","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Star 5","access_rules": ["@canReachRippleStar1"]},
+            {"name": "Ripple Star 1 - Star 6","access_rules": ["@canReachRippleStar1"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 2",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 703,
+                "y": 279
+            }
+        ],
+        "sections": [
+            {"name": "Ripple Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2, $hasAnySpark"]},
+            {"name": "Ripple Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2KingDedede, $hasAnyCutter"]},
+            {"name": "Ripple Star 2 - Complete","access_rules": ["@canReachRippleStar2KingDedede"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 2 - 1-Ups",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 734,
+                "y": 279
+            }
+        ],
+        "chest_opened_img": "images/ui/1up found.png",
+        "chest_unopened_img": "images/ui/1up.png",
+        "visibility_rules": ["setting_1up_sanity"],
+        "sections": [
+            {"name": "Ripple Star 2 - 1-Up 1","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - 1-Up 2","access_rules": ["@canReachRippleStar2KingDedede, $hasAnySpark"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 2 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 703,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Ripple Star 2 - Cake 1","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Cake 2","access_rules": ["@canReachRippleStar2KingDedede, $hasAnyNeedle"]},
+            {"name": "Ripple Star 2 - Ice Cream 1","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Ice Cream 2","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Maxim Tomato","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Meat 1","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Meat 2","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Sandwich 1","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Sandwich 2","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Sandwich 3","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Sandwich 4","access_rules": ["@canReachRippleStar2KingDedede, $hasAnyIce"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 2 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 734,
+                "y": 309
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Ripple Star 2 - Star 1","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Star 2","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Star 3","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Star 4","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Star 5","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Star 6","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Star 7","access_rules": ["@canReachRippleStar2"]},
+            {"name": "Ripple Star 2 - Star 8","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Star 9","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Star 10","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Star 11","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Star 12","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Star 13","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Star 14","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Star 15","access_rules": ["@canReachRippleStar2KingDedede"]},
+            {"name": "Ripple Star 2 - Star 16","access_rules": ["@canReachRippleStar2KingDedede"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 3",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 625,
+                "y": 361
+            }
+        ],
+        "sections": [
+            {"name": "Ripple Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar3, $hasFireArrows"]},
+            {"name": "Ripple Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Complete","access_rules": ["@canReachRippleStar3"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 3 - 1-Ups",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 657,
+                "y": 361
+            }
+        ],
+        "chest_opened_img": "images/ui/1up found.png",
+        "chest_unopened_img": "images/ui/1up.png",
+        "visibility_rules": ["setting_1up_sanity"],
+        "sections": [
+            {"name": "Ripple Star 3 - 1-Up","access_rules": ["@canReachRippleStar3"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 3 - Food",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 625,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/food found.png",
+        "chest_unopened_img": "images/ui/food.png",
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Ripple Star 3 - Cake","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Ice Cream","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Meat","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Sandwich","access_rules": ["@canReachRippleStar3"]}
+        ]
+    },
+    {
+        "name": "Ripple Star 3 - Stars",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 657,
+                "y": 391
+            }
+        ],
+        "chest_opened_img": "images/ui/small star found.png",
+        "chest_unopened_img": "images/ui/small star.png",
+        "visibility_rules": ["setting_star_sanity"],
+        "sections": [
+            {"name": "Ripple Star 3 - Star 1","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 2","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 3","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 4","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 5","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 6","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 7","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 8","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 9","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 10","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 11","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 12","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 13","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 14","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 15","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 16","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 17","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 18","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 19","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 20","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 21","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 22","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 23","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 24","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 25","access_rules": ["@canReachRippleStar3"]},
+            {"name": "Ripple Star 3 - Star 26","access_rules": ["@canReachRippleStar3"]}
+        ]
+    },
+    {
+        "name": "Ripple Star Boss",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 703,
+                "y": 361
+            }
+        ],
+        "sections": [
+            {"name": "Ripple Star - Boss Defeated","access_rules": ["@canReachRippleStarBoss"]}
+        ]
+    },
+    {
+        "name": "Dark Star",
+        "map_locations": [
+            {
+                "map": "Full Map",
+                "x": 734,
+                "y": 391
+            }
+        ],
+        "visibility_rules": ["setting_food_sanity"],
+        "sections": [
+            {"name": "Dark Star - Adeleine Gift","access_rules": ["@canReachDarkStar"]}
+        ]
+    },
+
+
+
+    
+
+    {
+    "name": "canReachPopStar1",
+    "access_rules": [
+        "$hasAccessToLevel|1"
+    ]},
+    {
+    "name": "canReachPopStar2",
+    "access_rules": [
+        "$hasAccessToLevel|2"
+    ]},
+    {
+    "name": "canReachPopStar3",
+    "access_rules": [
+        "$hasAccessToLevel|3"
+    ]},
+    {
+    "name": "canReachPopStarBoss",
+    "access_rules": [
+        "$hasAccessToBoss|1"
+    ]},
+    {
+    "name": "canReachRockStar1",
+    "access_rules": [
+        "$hasAccessToLevel|4"
+    ]},
+    {
+    "name": "canReachRockStar1WaddleDee",
+    "access_rules": [
+        "@canReachRockStar1, $hasWaddleDee"
+    ]},
+    {
+    "name": "canReachRockStar2",
+    "access_rules": [
+        "$hasAccessToLevel|5"
+    ]},
+    {
+    "name": "canReachRockStar2KingDedede",
+    "access_rules": [
+        "@canReachRockStar2, $hasKingDedede"
+    ]},
+    {
+    "name": "canReachRockStar3",
+    "access_rules": [
+        "$hasAccessToLevel|6"
+    ]},
+    {
+    "name": "canReachRockStar4",
+    "access_rules": [
+        "$hasAccessToLevel|7"
+    ]},
+    {
+    "name": "canReachRockStarBoss",
+    "access_rules": [
+        "$hasAccessToBoss|2"
+    ]},
+    {
+    "name": "canReachAquaStar1",
+    "access_rules": [
+        "$hasAccessToLevel|8"
+    ]},
+    {
+    "name": "canReachAquaStar2",
+    "access_rules": [
+        "$hasAccessToLevel|9"
+    ]},
+    {
+    "name": "canReachAquaStar2WaddleDee",
+    "access_rules": [
+        "@canReachAquaStar2, $hasWaddleDee"
+    ]},
+    {
+    "name": "canReachAquaStar3",
+    "access_rules": [
+        "$hasAccessToLevel|10"
+    ]},
+    {
+    "name": "canReachAquaStar3KingDedede",
+    "access_rules": [
+        "@canReachAquaStar3, $hasKingDedede"
+    ]},
+    {
+    "name": "canReachAquaStar4",
+    "access_rules": [
+        "$hasAccessToLevel|11"
+    ]},
+    {
+    "name": "canReachAquaStarBoss",
+    "access_rules": [
+        "$hasAccessToBoss|3"
+    ]},
+    {
+    "name": "canReachNeoStar1",
+    "access_rules": [
+        "$hasAccessToLevel|12"
+    ]},
+    {
+    "name": "canReachNeoStar2",
+    "access_rules": [
+        "$hasAccessToLevel|13"
+    ]},
+    {
+    "name": "canReachNeoStar2WaddleDee",
+    "access_rules": [
+        "@canReachNeoStar2, $hasWaddleDee"
+    ]},
+    {
+    "name": "canReachNeoStar3",
+    "access_rules": [
+        "$hasAccessToLevel|14"
+    ]},
+    {
+    "name": "canReachNeoStar4",
+    "access_rules": [
+        "$hasAccessToLevel|15"
+    ]},
+    {
+    "name": "canReachNeoStar4KingDedede",
+    "access_rules": [
+        "@canReachNeoStar4, $hasKingDedede"
+    ]},
+    {
+    "name": "canReachNeoStarBoss",
+    "access_rules": [
+        "$hasAccessToBoss|4"
+    ]},
+    {
+    "name": "canReachShiverStar1",
+    "access_rules": [
+        "$hasAccessToLevel|16"
+    ]},
+    {
+    "name": "canReachShiverStar1WaddleDee",
+    "access_rules": [
+        "@canReachShiverStar1, $hasWaddleDee"
+    ]},
+    {
+    "name": "canReachShiverStar2",
+    "access_rules": [
+        "$hasAccessToLevel|17"
+    ]},
+    {
+    "name": "canReachShiverStar3",
+    "access_rules": [
+        "$hasAccessToLevel|18"
+    ]},
+    {
+    "name": "canReachShiverStar4",
+    "access_rules": [
+        "$hasAccessToLevel|19"
+    ]},
+    {
+    "name": "canReachShiverStar4KingDedede",
+    "access_rules": [
+        "@canReachShiverStar4, $hasKingDedede"
+    ]},
+    {
+    "name": "canReachShiverStarBoss",
+    "access_rules": [
+        "$hasAccessToBoss|5"
+    ]},
+    {
+    "name": "canReachRippleStar1",
+    "access_rules": [
+        "$hasAccessToLevel|20"
+    ]},
+    {
+    "name": "canReachRippleStar2",
+    "access_rules": [
+        "$hasAccessToLevel|21"
+    ]},
+    {
+    "name": "canReachRippleStar2KingDedede",
+    "access_rules": [
+        "@canReachRippleStar2, $hasKingDedede"
+    ]},
+    {
+    "name": "canReachRippleStar3",
+    "access_rules": [
+        "$hasAccessToLevel|22"
+    ]},
+    {
+    "name": "canReachRippleStarBoss",
+    "access_rules": [
+        "$hasAccessToBoss|6"
+    ]},
+    {
+    "name": "canReachDarkStar",
+    "access_rules": [
+        "$hasAccessToBoss|7, $hasWaddleDee, $hasAdeleine, $hasKingDedede"
+    ]}
+]

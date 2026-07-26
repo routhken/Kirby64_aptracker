@@ -1,0 +1,56 @@
+{
+    "settings_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "7, 5",
+                        "item_margin": "2, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_goal_speed",
+                                "setting_split_power_combos",
+                                "setting_1up_sanity",
+                                "setting_food_sanity",
+                                "setting_star_sanity"
+                            ]
+                        ]
+                    }
+                ]
+            },{
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "7, 5",
+                        "item_margin": "0, 2",
+                        "item_h_alignment": "center",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "setting_required_crystals_1",
+                                "setting_required_crystals_2",
+                                "setting_required_crystals_3",
+                                "setting_required_crystals_4",
+                                "setting_required_crystals_5",
+                                "setting_required_crystals_6",
+                                "setting_required_crystals_7"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

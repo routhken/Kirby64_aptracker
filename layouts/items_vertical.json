@@ -1,0 +1,136 @@
+{
+    "items_layout": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "crystal_shard",
+                                "adeleine",
+                                "waddle_dee",
+                                "king_dedede"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "items_layout_powers": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 5",
+                        "item_margin": "2, 1",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "burning",
+                                "stone",
+                                "ice",
+                                "needle"
+                            ],
+                            [
+                                "bomb",
+                                "spark",
+                                "cutter"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "items_layout_combos": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0, 0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "5, 4",
+                        "item_margin": "3, 0",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "phoenix",
+                                "volcano",
+                                "burning_ice_cube"
+                            ],
+                            [
+                                "fire_arrow",
+                                "fireworks",
+                                "tinder_sheet"
+                            ],
+                            [
+                                "flame_sword",
+                                "mega_stone",
+                                "curling_stone"
+                            ],
+                            [
+                                "drill",
+                                "dynamite",
+                                "geokinesis"
+                            ],
+                            [
+                                "stone_friends",
+                                "snowball",
+                                "snowflake"
+                            ],
+                            [
+                                "exploding_snowman",
+                                "refrigerator",
+                                "ice_skates"
+                            ],
+                            [
+                                "clutter_needle",
+                                "exploding_gordo",
+                                "lightning_rod"
+                            ],
+                            [
+                                "bear_trap",
+                                "rocket_launcher",
+                                "lightbulb"
+                            ],
+                            [
+                                "exploding_shuriken",
+                                "electrical_field",
+                                "lightsaber"
+                            ],
+                            [
+                                "great_cutter"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

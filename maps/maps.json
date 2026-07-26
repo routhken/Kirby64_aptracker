@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Full Map",
+        "location_size": 12,
+        "location_border_thickness": 2,
+        "img": "images/maps/Full Map.png"
+    },
+    {
+        "name": "Pop Star",
+        "location_size": 50,
+        "location_border_thickness": 6,
+        "img": "images/maps/Map_Pop Star.png"
+    },
+    {
+        "name": "Rock Star",
+        "location_size": 50,
+        "location_border_thickness": 6,
+        "img": "images/maps/Map_Rock Star.png"
+    },
+    {
+        "name": "Aqua Star",
+        "location_size": 50,
+        "location_border_thickness": 6,
+        "img": "images/maps/Map_Aqua Star.png"
+    },
+    {
+        "name": "Neo Star",
+        "location_size": 50,
+        "location_border_thickness": 6,
+        "img": "images/maps/Map_Neo Star.png"
+    },
+    {
+        "name": "Shiver Star",
+        "location_size": 50,
+        "location_border_thickness": 6,
+        "img": "images/maps/Map_Shiver Star.png"
+    },
+    {
+        "name": "Ripple Star",
+        "location_size": 50,
+        "location_border_thickness": 6,
+        "img": "images/maps/Map_Ripple Star.png"
+    }
+]

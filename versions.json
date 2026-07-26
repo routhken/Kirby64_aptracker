@@ -1,0 +1,16 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0.0",
+            "download_url": "https://github.com/routhken/Kirby64_tracker/releases/download/v1.0.0/Kirby64_aptracker.zip",
+            "sha256": "d55a189dcb9fc04c0c66c5f4ce13051bc65f2f1b8b97fd8f5c1cf4677dd92aba",
+            "changelog": [
+                "- Initial release",
+                "- Locations: Tracking support for all locations as of K64.apworld v0.3.2",
+                "- Logic: Location accessibility logic based on game state",
+                "- Autotracking: Support for automatic tracking of items, locations and settings when connected to an Archipelago server",
+                "- Autoupdates: Support for automatic updating of tracker pack when loaded"
+            ]
+        }
+    ]
+}

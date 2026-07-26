@@ -1,0 +1,643 @@
+[
+    {
+        "name": "Burning",
+        "type": "toggle",
+        "img": "/images/items/burn.png",
+        "codes": "burning"
+    },
+    {
+        "name": "Stone",
+        "type": "toggle",
+        "img": "/images/items/stone.png",
+        "codes": "stone"
+    },
+    {
+        "name": "Ice",
+        "type": "toggle",
+        "img": "/images/items/ice.png",
+        "codes": "ice"
+    },
+    {
+        "name": "Needle",
+        "type": "toggle",
+        "img": "/images/items/needle.png",
+        "codes": "needle"
+    },
+    {
+        "name": "Bomb",
+        "type": "toggle",
+        "img": "/images/items/bomb.png",
+        "codes": "bomb"
+    },
+    {
+        "name": "Spark",
+        "type": "toggle",
+        "img": "/images/items/spark.png",
+        "codes": "spark"
+    },
+    {
+        "name": "Cutter",
+        "type": "toggle",
+        "img": "/images/items/cutter.png",
+        "codes": "cutter"
+    },
+    {
+        "name": "Phoenix",
+        "type": "toggle",
+        "img": "/images/items/burn_burn.png",
+        "codes": "phoenix"
+    },
+    {
+        "name": "Volcano",
+        "type": "toggle",
+        "img": "/images/items/burn_stone.png",
+        "codes": "volcano"
+    },
+    {
+        "name": "Burning Ice Cube",
+        "type": "toggle",
+        "img": "/images/items/burn_ice.png",
+        "codes": "burning_ice_cube"
+    },
+    {
+        "name": "Fire Arrow",
+        "type": "toggle",
+        "img": "/images/items/burn_needle.png",
+        "codes": "fire_arrow"
+    },
+    {
+        "name": "Fireworks",
+        "type": "toggle",
+        "img": "/images/items/burn_bomb.png",
+        "codes": "fireworks"
+    },
+    {
+        "name": "Tinder Sheet",
+        "type": "toggle",
+        "img": "/images/items/burn_spark.png",
+        "codes": "tinder_sheet"
+    },
+    {
+        "name": "Flame Sword",
+        "type": "toggle",
+        "img": "/images/items/burn_cutter.png",
+        "codes": "flame_sword"
+    },
+    {
+        "name": "Mega-Stone",
+        "type": "toggle",
+        "img": "/images/items/stone_stone.png",
+        "codes": "mega_stone"
+    },
+    {
+        "name": "Curling Stone",
+        "type": "toggle",
+        "img": "/images/items/stone_ice.png",
+        "codes": "curling_stone"
+    },
+    {
+        "name": "Drill",
+        "type": "toggle",
+        "img": "/images/items/stone_needle.png",
+        "codes": "drill"
+    },
+    {
+        "name": "Dynamite",
+        "type": "toggle",
+        "img": "/images/items/stone_bomb.png",
+        "codes": "dynamite"
+    },
+    {
+        "name": "Geokinesis",
+        "type": "toggle",
+        "img": "/images/items/stone_spark.png",
+        "codes": "geokinesis"
+    },
+    {
+        "name": "Stone Friends",
+        "type": "toggle",
+        "img": "/images/items/stone_cutter.png",
+        "codes": "stone_friends"
+    },
+    {
+        "name": "Snowball",
+        "type": "toggle",
+        "img": "/images/items/ice_ice.png",
+        "codes": "snowball"
+    },
+    {
+        "name": "Snowflake",
+        "type": "toggle",
+        "img": "/images/items/ice_needle.png",
+        "codes": "snowflake"
+    },
+    {
+        "name": "Exploding Snowman",
+        "type": "toggle",
+        "img": "/images/items/ice_bomb.png",
+        "codes": "exploding_snowman"
+    },
+    {
+        "name": "Refrigerator",
+        "type": "toggle",
+        "img": "/images/items/ice_spark.png",
+        "codes": "refrigerator"
+    },
+    {
+        "name": "Ice Skates",
+        "type": "toggle",
+        "img": "/images/items/ice_cutter.png",
+        "codes": "ice_skates"
+    },
+    {
+        "name": "Clutter Needle",
+        "type": "toggle",
+        "img": "/images/items/needle_needle.png",
+        "codes": "clutter_needle"
+    },
+    {
+        "name": "Exploding Gordo",
+        "type": "toggle",
+        "img": "/images/items/needle_bomb.png",
+        "codes": "exploding_gordo"
+    },
+    {
+        "name": "Lightning Rod",
+        "type": "toggle",
+        "img": "/images/items/needle_spark.png",
+        "codes": "lightning_rod"
+    },
+    {
+        "name": "Bear Trap",
+        "type": "toggle",
+        "img": "/images/items/needle_cutter.png",
+        "codes": "bear_trap"
+    },
+    {
+        "name": "Rocket Launcher",
+        "type": "toggle",
+        "img": "/images/items/bomb_bomb.png",
+        "codes": "rocket_launcher"
+    },
+    {
+        "name": "Lightbulb",
+        "type": "toggle",
+        "img": "/images/items/bomb_spark.png",
+        "codes": "lightbulb"
+    },
+    {
+        "name": "Exploding Shuriken",
+        "type": "toggle",
+        "img": "/images/items/bomb_cutter.png",
+        "codes": "exploding_shuriken"
+    },
+    {
+        "name": "Electrical Field",
+        "type": "toggle",
+        "img": "/images/items/spark_spark.png",
+        "codes": "electrical_field"
+    },
+    {
+        "name": "Lightsaber",
+        "type": "toggle",
+        "img": "/images/items/spark_cutter.png",
+        "codes": "lightsaber"
+    },
+    {
+        "name": "Great Cutter",
+        "type": "toggle",
+        "img": "/images/items/cutter_cutter.png",
+        "codes": "great_cutter"
+    },
+    {
+        "name": "Adeleine",
+        "type": "toggle",
+        "img": "/images/items/adeleine.png",
+        "codes": "adeleine"
+    },
+    {
+        "name": "Waddle Dee",
+        "type": "toggle",
+        "img": "/images/items/waddle_dee.png",
+        "codes": "waddle_dee"
+    },
+    {
+        "name": "King Dedede",
+        "type": "toggle",
+        "img": "/images/items/dedede.png",
+        "codes": "king_dedede"
+    },
+    {
+        "name": "Ribbon",
+        "type": "toggle",
+        "img": "/images/items/Ribbon.png",
+        "codes": "ribbon"
+    },
+    {
+        "name": "Crystal Gun",
+        "type": "toggle",
+        "img": "/images/items/Crystal Gun.png",
+        "codes": "crystal_gun"
+    },
+    {
+        "name": "Ribbon's Crystal",
+        "type": "toggle",
+        "img": "/images/items/Ribbon's Crystal.png",
+        "codes": "ribbons_crystal"
+    },
+    {
+        "name": "Crystal Shard",
+        "type": "consumable",
+        "img": "/images/items/crystal_shard.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 0,
+        "overlay_font_size": 20,
+        "codes": "crystal_shard"
+    },
+    {
+        "name": "UI: Crystal Shard",
+        "type": "toggle",
+        "img": "/images/items/crystal_shard.png",
+        "codes": "ui_crystal_shard"
+    },
+    {
+        "name": "Setting: Goal Speed",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Goal Speed Normal",
+                "img": "/images/settings/Goal Speed Normal.png",
+                "codes": "setting_goal_speed_fast",
+                "inherit_codes": false
+            },
+            {
+                "name": "Goal Speed Fast",
+                "img": "/images/settings/Goal Speed Fast.png",
+                "codes": "setting_goal_speed_normal",
+                "inherit_codes": false
+            }
+        ],
+        "codes": "setting_goal_speed"
+    },
+    {
+        "name": "Setting: Boss 1 Required Crystals",
+        "type": "consumable",
+        "img": "/images/ui/whispy_woods.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_font_size": 20,
+        "codes": "setting_required_crystals_1"
+    },
+    {
+        "name": "Setting: Boss 2 Required Crystals",
+        "type": "consumable",
+        "img": "/images/ui/pix.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_font_size": 20,
+        "codes": "setting_required_crystals_2"
+    },
+    {
+        "name": "Setting: Boss 3 Required Crystals",
+        "type": "consumable",
+        "img": "/images/ui/acro.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 3,
+        "overlay_font_size": 20,
+        "codes": "setting_required_crystals_3"
+    },
+    {
+        "name": "Setting: Boss 4 Required Crystals",
+        "type": "consumable",
+        "img": "/images/ui/magman.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 4,
+        "overlay_font_size": 20,
+        "codes": "setting_required_crystals_4"
+    },
+    {
+        "name": "Setting: Boss 5 Required Crystals",
+        "type": "consumable",
+        "img": "/images/ui/hr_h.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 5,
+        "overlay_font_size": 20,
+        "codes": "setting_required_crystals_5"
+    },
+    {
+        "name": "Setting: Boss 6 Required Crystals",
+        "type": "consumable",
+        "img": "/images/ui/miracle_matter.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 6,
+        "overlay_font_size": 20,
+        "codes": "setting_required_crystals_6"
+    },
+    {
+        "name": "Setting: Boss 7 Required Crystals",
+        "type": "consumable",
+        "img": "/images/ui/02.png",
+        "max_quantity": 100,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 7,
+        "overlay_font_size": 20,
+        "codes": "setting_required_crystals_7"
+    },
+    {
+        "name": "Setting: Split Combos",
+        "type": "toggle",
+        "img": "/images/items/burn_ice.png",
+        "codes": "setting_split_power_combos"
+    },
+    {
+        "name": "Setting: 1-Up Sanity",
+        "type": "toggle",
+        "img": "/images/ui/1up.png",
+        "codes": "setting_1up_sanity"
+    },
+    {
+        "name": "Setting: Food Sanity",
+        "type": "toggle",
+        "img": "/images/ui/food.png",
+        "codes": "setting_food_sanity"
+    },
+    {
+        "name": "Setting: Star Sanity",
+        "type": "toggle",
+        "img": "/images/ui/small star.png",
+        "codes": "setting_star_sanity"
+    },
+    {
+        "name": "Setting: Pop 1 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_font_size": 20,
+        "codes": "setting_pop_1_level"
+    },
+    {
+        "name": "Setting: Pop 2 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 2,
+        "overlay_font_size": 20,
+        "codes": "setting_pop_2_level"
+    },
+    {
+        "name": "Setting: Pop 3 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 3,
+        "overlay_font_size": 20,
+        "codes": "setting_pop_3_level"
+    },
+    {
+        "name": "Setting: Rock 1 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 4,
+        "overlay_font_size": 20,
+        "codes": "setting_rock_1_level"
+    },
+    {
+        "name": "Setting: Rock 2 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 5,
+        "overlay_font_size": 20,
+        "codes": "setting_rock_2_level"
+    },
+    {
+        "name": "Setting: Rock 3 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 6,
+        "overlay_font_size": 20,
+        "codes": "setting_rock_3_level"
+    },
+    {
+        "name": "Setting: Rock 4 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 7,
+        "overlay_font_size": 20,
+        "codes": "setting_rock_4_level"
+    },
+    {
+        "name": "Setting: Aqua 1 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 8,
+        "overlay_font_size": 20,
+        "codes": "setting_aqua_1_level"
+    },
+    {
+        "name": "Setting: Aqua 2 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 9,
+        "overlay_font_size": 20,
+        "codes": "setting_aqua_2_level"
+    },
+    {
+        "name": "Setting: Aqua 3 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 10,
+        "overlay_font_size": 20,
+        "codes": "setting_aqua_3_level"
+    },
+    {
+        "name": "Setting: Aqua 4 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 11,
+        "overlay_font_size": 20,
+        "codes": "setting_aqua_4_level"
+    },
+    {
+        "name": "Setting: Neo 1 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 12,
+        "overlay_font_size": 20,
+        "codes": "setting_neo_1_level"
+    },
+    {
+        "name": "Setting: Neo 2 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 13,
+        "overlay_font_size": 20,
+        "codes": "setting_neo_2_level"
+    },
+    {
+        "name": "Setting: Neo 3 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 14,
+        "overlay_font_size": 20,
+        "codes": "setting_neo_3_level"
+    },
+    {
+        "name": "Setting: Neo 4 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 15,
+        "overlay_font_size": 20,
+        "codes": "setting_neo_4_level"
+    },
+    {
+        "name": "Setting: Shiver 1 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 16,
+        "overlay_font_size": 20,
+        "codes": "setting_shiv_1_level"
+    },
+    {
+        "name": "Setting: Shiver 2 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 17,
+        "overlay_font_size": 20,
+        "codes": "setting_shiv_2_level"
+    },
+    {
+        "name": "Setting: Shiver 3 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 18,
+        "overlay_font_size": 20,
+        "codes": "setting_shiv_3_level"
+    },
+    {
+        "name": "Setting: Shiver 4 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 19,
+        "overlay_font_size": 20,
+        "codes": "setting_shiv_4_level"
+    },
+    {
+        "name": "Setting: Ripple 1 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 20,
+        "overlay_font_size": 20,
+        "codes": "setting_rip_1_level"
+    },
+    {
+        "name": "Setting: Ripple 2 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 21,
+        "overlay_font_size": 20,
+        "codes": "setting_rip_2_level"
+    },
+    {
+        "name": "Setting: Ripple 3 Level",
+        "type": "consumable",
+        "img": "/images/ui/blank.png",
+        "max_quantity": 22,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 22,
+        "overlay_font_size": 20,
+        "codes": "setting_rip_3_level"
+    },
+    {
+        "name": "Setting: Deathlink",
+        "type": "toggle",
+        "img": "/images/ui/You Died.png",
+        "codes": "setting_deathlink"
+    },
+    {
+        "name": "Setting: Auto Map Tab",
+        "type": "toggle",
+        "img": "/images/settings/autotab.png",
+        "disabled_img": "images/settings/autotab_off.png",
+        "codes": "setting_auto_tab"
+    }
+]

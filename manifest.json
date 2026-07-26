@@ -1,0 +1,24 @@
+{
+    "name": "Kirby 64",
+    "game_name": "Kirby 64",
+    "package_version": "1.0.0",
+    "package_uid": "ap_k64",
+    "author": "DaKennyMan22",
+    "variants": {
+      "a_standard": {
+        "display_name": "Tracker (Horizontal)",
+        "flags": ["ap"]
+      },
+      "b_vertical": {
+        "display_name": "Tracker (Vertical)",
+        "flags": ["ap"]
+      },
+      "c_items_only": {
+        "display_name": "Tracker (Items Only)",
+        "flags": ["ap"]
+      }
+    },
+    "min_poptracker_version": "0.26.0",
+    "target_poptracker_version": "0.26.0",
+    "versions_url": "https://raw.githubusercontent.com/routhken/Kirby64_aptracker/refs/heads/main/versions.json"
+}
