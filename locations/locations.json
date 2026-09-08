@@ -10,7 +10,7 @@
         ],
         "sections": [
             {"name": "Pop Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar1"]},
-            {"name": "Pop Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar1, $hasAnyBomb"]},
+            {"name": "Pop Star 1 - Shard 2 (requires Bomb)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar1, $hasAnyBomb"]},
             {"name": "Pop Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar1"]},
             {"name": "Pop Star 1 - Complete","access_rules": ["@canReachPopStar1"]}
         ]
@@ -166,7 +166,7 @@
             }
         ],
         "sections": [
-            {"name": "Pop Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar3, $hasGreatCutter"]},
+            {"name": "Pop Star 3 - Shard 1 (requires Cutter + Cutter)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar3, $hasGreatCutter"]},
             {"name": "Pop Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar3"]},
             {"name": "Pop Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachPopStar3"]},
             {"name": "Pop Star 3 - Complete","access_rules": ["@canReachPopStar3"]}
@@ -248,7 +248,7 @@
         "sections": [
             {"name": "Rock Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar1"]},
             {"name": "Rock Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar1"]},
-            {"name": "Rock Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar1WaddleDee, $hasGeokinesis"]},
+            {"name": "Rock Star 1 - Shard 3 (requires Stone + Spark)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar1WaddleDee, $hasGeokinesis"]},
             {"name": "Rock Star 1 - Complete","access_rules": ["@canReachRockStar1WaddleDee"]}
         ]
     },
@@ -423,7 +423,7 @@
             }
         ],
         "sections": [
-            {"name": "Rock Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar3, $hasAnyStone"]},
+            {"name": "Rock Star 3 - Shard 1 (requires Stone)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar3, $hasAnyStone"]},
             {"name": "Rock Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar3"]},
             {"name": "Rock Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar3"]},
             {"name": "Rock Star 3 - Complete","access_rules": ["@canReachRockStar3"]}
@@ -517,7 +517,7 @@
         ],
         "sections": [
             {"name": "Rock Star 4 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar4"]},
-            {"name": "Rock Star 4 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar4, $hasLightbulb"]},
+            {"name": "Rock Star 4 - Shard 2 (requires Bomb + Spark)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar4, $hasLightbulb"]},
             {"name": "Rock Star 4 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRockStar4"]},
             {"name": "Rock Star 4 - Complete","access_rules": ["@canReachRockStar4"]}
         ]
@@ -612,7 +612,7 @@
         "sections": [
             {"name": "Aqua Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar1"]},
             {"name": "Aqua Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar1"]},
-            {"name": "Aqua Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar1, $hasExplodingSnowman"]},
+            {"name": "Aqua Star 1 - Shard 3 (requires Ice + Bomb)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar1, $hasExplodingSnowman"]},
             {"name": "Aqua Star 1 - Complete","access_rules": ["@canReachAquaStar1"]}
         ]
     },
@@ -702,7 +702,7 @@
             }
         ],
         "sections": [
-            {"name": "Aqua Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar2, $hasVolcano"]},
+            {"name": "Aqua Star 2 - Shard 1 (requires Burn + Stone)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar2, $hasVolcano"]},
             {"name": "Aqua Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar2WaddleDee"]},
             {"name": "Aqua Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar2WaddleDee"]},
             {"name": "Aqua Star 2 - Complete","access_rules": ["@canReachAquaStar2WaddleDee"]}
@@ -808,9 +808,9 @@
             }
         ],
         "sections": [
-            {"name": "Aqua Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar3, $hasShurikens"]},
+            {"name": "Aqua Star 3 - Shard 1 (requires Bomb + Cutter)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar3, $hasShurikens"]},
             {"name": "Aqua Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar3KingDedede"]},
-            {"name": "Aqua Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar3KingDedede, $hasStoneFriends"]},
+            {"name": "Aqua Star 3 - Shard 3 (requires Stone + Cutter)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachAquaStar3KingDedede, $hasStoneFriends"]},
             {"name": "Aqua Star 3 - Complete","access_rules": ["@canReachAquaStar3KingDedede"]}
         ]
     },
@@ -825,6 +825,7 @@
         ],
         "chest_opened_img": "images/ui/1up found.png",
         "chest_unopened_img": "images/ui/1up.png",
+        "visibility_rules": ["setting_1up_sanity"],
         "sections": [
             {"name": "Aqua Star 3 - 1-Up","access_rules": ["@canReachAquaStar3KingDedede, $hasStoneFriends"]}
         ]
@@ -1098,7 +1099,7 @@
         "sections": [
             {"name": "Neo Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar2"]},
             {"name": "Neo Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar2WaddleDee"]},
-            {"name": "Neo Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar2WaddleDee, $hasDynamite"]},
+            {"name": "Neo Star 2 - Shard 3 (requires Stone + Bomb)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar2WaddleDee, $hasDynamite"]},
             {"name": "Neo Star 2 - Complete","access_rules": ["@canReachNeoStar2WaddleDee"]}
         ]
     },
@@ -1229,7 +1230,7 @@
             }
         ],
         "sections": [
-            {"name": "Neo Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar3, $hasAnyNeedle"]},
+            {"name": "Neo Star 3 - Shard 1 (requires Needle)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar3, $hasAnyNeedle"]},
             {"name": "Neo Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar3, $hasAdeleine"]},
             {"name": "Neo Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar3"]},
             {"name": "Neo Star 3 - Complete","access_rules": ["@canReachNeoStar3"]}
@@ -1301,7 +1302,7 @@
         ],
         "sections": [
             {"name": "Neo Star 4 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar4KingDedede"]},
-            {"name": "Neo Star 4 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar4KingDedede, $hasAnyIce"]},
+            {"name": "Neo Star 4 - Shard 2 (requires Ice)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar4KingDedede, $hasAnyIce"]},
             {"name": "Neo Star 4 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachNeoStar4KingDedede"]},
             {"name": "Neo Star 4 - Complete","access_rules": ["@canReachNeoStar4KingDedede"]}
         ]
@@ -1415,7 +1416,7 @@
         ],
         "sections": [
             {"name": "Shiver Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar1WaddleDee"]},
-            {"name": "Shiver Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar1WaddleDee, $hasAnyBurn"]},
+            {"name": "Shiver Star 1 - Shard 2 (requires Burn)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar1WaddleDee, $hasAnyBurn"]},
             {"name": "Shiver Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar1WaddleDee"]},
             {"name": "Shiver Star 1 - Complete","access_rules": ["@canReachShiverStar1WaddleDee"]}
         ]
@@ -1538,7 +1539,7 @@
         "sections": [
             {"name": "Shiver Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar2"]},
             {"name": "Shiver Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar2"]},
-            {"name": "Shiver Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar2, $hasLightningRod"]},
+            {"name": "Shiver Star 2 - Shard 3 (requires Needle + Spark)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar2, $hasLightningRod"]},
             {"name": "Shiver Star 2 - Complete","access_rules": ["@canReachShiverStar2"]}
         ]
     },
@@ -1706,8 +1707,8 @@
             }
         ],
         "sections": [
-            {"name": "Shiver Star 4 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar4, $hasDrill"]},
-            {"name": "Shiver Star 4 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar4KingDedede, $hasLightsaber"]},
+            {"name": "Shiver Star 4 - Shard 1 (requires Stone + Needle)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar4, $hasDrill"]},
+            {"name": "Shiver Star 4 - Shard 2 (requires Spark + Cutter)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar4KingDedede, $hasLightsaber"]},
             {"name": "Shiver Star 4 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachShiverStar4KingDedede"]},
             {"name": "Shiver Star 4 - Complete","access_rules": ["@canReachShiverStar4KingDedede"]}
         ]
@@ -1832,7 +1833,7 @@
         "sections": [
             {"name": "Ripple Star 1 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar1"]},
             {"name": "Ripple Star 1 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar1"]},
-            {"name": "Ripple Star 1 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar1, $hasExplodingGordo"]},
+            {"name": "Ripple Star 1 - Shard 3 (requires Needle + Bomb)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar1, $hasExplodingGordo"]},
             {"name": "Ripple Star 1 - Complete","access_rules": ["@canReachRippleStar1"]}
         ]
     },
@@ -1887,9 +1888,9 @@
             }
         ],
         "sections": [
-            {"name": "Ripple Star 2 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2, $hasAnySpark"]},
+            {"name": "Ripple Star 2 - Shard 1 (requires Spark)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2, $hasAnySpark"]},
             {"name": "Ripple Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2KingDedede"]},
-            {"name": "Ripple Star 2 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2KingDedede, $hasAnyCutter"]},
+            {"name": "Ripple Star 2 - Shard 3 (requires Cutter)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2KingDedede, $hasAnyCutter"]},
             {"name": "Ripple Star 2 - Complete","access_rules": ["@canReachRippleStar2KingDedede"]}
         ]
     },
@@ -1978,7 +1979,7 @@
         ],
         "sections": [
             {"name": "Ripple Star 3 - Shard 1","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar3"]},
-            {"name": "Ripple Star 3 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar3, $hasFireArrows"]},
+            {"name": "Ripple Star 3 - Shard 2 (requires Burn + Needle)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar3, $hasFireArrows"]},
             {"name": "Ripple Star 3 - Shard 3","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar3"]},
             {"name": "Ripple Star 3 - Complete","access_rules": ["@canReachRippleStar3"]}
         ]

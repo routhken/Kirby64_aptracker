@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.0.1",
+            "download_url": "https://github.com/routhken/Kirby64_tracker/releases/download/v1.0.1/Kirby64_aptracker.zip",
+            "sha256": "1a13a3798fd9ce4e41cd81f7ead15462cd80250248dadf50252fea4192ba8cea",
+            "changelog": [
+                "- Fixed aqua star 3 1-up showing without 1-ups randomized",
+                "- Added required powers to shard names"
+            ]
+        },{
             "package_version": "1.0.0",
             "download_url": "https://github.com/routhken/Kirby64_tracker/releases/download/v1.0.0/Kirby64_aptracker.zip",
             "sha256": "d55a189dcb9fc04c0c66c5f4ce13051bc65f2f1b8b97fd8f5c1cf4677dd92aba",
