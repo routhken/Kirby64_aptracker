@@ -185,10 +185,10 @@
         "chest_unopened_img": "images/ui/food.png",
         "visibility_rules": ["setting_food_sanity"],
         "sections": [
-            {"name": "Pop Star 3 - Adeleine Gift","access_rules": ["@canReachPopStar3"]},
-            {"name": "Pop Star 3 - Cake","access_rules": ["@canReachPopStar3"]},
+            {"name": "Pop Star 3 - Meat","access_rules": ["@canReachPopStar3"]},
             {"name": "Pop Star 3 - Maxim Tomato","access_rules": ["@canReachPopStar3"]},
-            {"name": "Pop Star 3 - Meat","access_rules": ["@canReachPopStar3"]}
+            {"name": "Pop Star 3 - Cake","access_rules": ["@canReachPopStar3, $hasAdeleine"]},
+            {"name": "Pop Star 3 - Adeleine Gift","access_rules": ["@canReachPopStar3"]}
         ]
     },
     {
@@ -357,7 +357,8 @@
             {"name": "Rock Star 2 - Maxim Tomato 1","access_rules": ["@canReachRockStar2"]},
             {"name": "Rock Star 2 - Maxim Tomato 2","access_rules": ["@canReachRockStar2KingDedede"]},
             {"name": "Rock Star 2 - Sandwich 1","access_rules": ["@canReachRockStar2"]},
-            {"name": "Rock Star 2 - Sandwich 2","access_rules": ["@canReachRockStar2KingDedede"]}
+            {"name": "Rock Star 2 - Sandwich 2","access_rules": ["@canReachRockStar2"]},
+            {"name": "Rock Star 2 - Sandwich 3","access_rules": ["@canReachRockStar2KingDedede"]}
         ]
     },
     {
@@ -731,7 +732,8 @@
             {"name": "Aqua Star 2 - Meat 3","access_rules": ["@canReachAquaStar2WaddleDee"]},
             {"name": "Aqua Star 2 - Meat 4","access_rules": ["@canReachAquaStar2WaddleDee"]},
             {"name": "Aqua Star 2 - Meat 5","access_rules": ["@canReachAquaStar2WaddleDee"]},
-            {"name": "Aqua Star 2 - Sandwich","access_rules": ["@canReachAquaStar2WaddleDee"]}
+            {"name": "Aqua Star 2 - Sandwich 1","access_rules": ["@canReachAquaStar2"]},
+            {"name": "Aqua Star 2 - Sandwich 2","access_rules": ["@canReachAquaStar2WaddleDee"]}
         ]
     },
     {
@@ -1890,7 +1892,7 @@
         "sections": [
             {"name": "Ripple Star 2 - Shard 1 (requires Spark)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2, $hasAnySpark"]},
             {"name": "Ripple Star 2 - Shard 2","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2KingDedede"]},
-            {"name": "Ripple Star 2 - Shard 3 (requires Cutter)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2KingDedede, $hasAnyCutter"]},
+            {"name": "Ripple Star 2 - Shard 3 (requires Vertical Cutter)","chest_opened_img": "images/ui/shard found.png","chest_unopened_img": "images/ui/shard.png","access_rules": ["@canReachRippleStar2KingDedede, $hasCutterVertical"]},
             {"name": "Ripple Star 2 - Complete","access_rules": ["@canReachRippleStar2KingDedede"]}
         ]
     },
@@ -1925,7 +1927,7 @@
         "visibility_rules": ["setting_food_sanity"],
         "sections": [
             {"name": "Ripple Star 2 - Cake 1","access_rules": ["@canReachRippleStar2KingDedede"]},
-            {"name": "Ripple Star 2 - Cake 2","access_rules": ["@canReachRippleStar2KingDedede, $hasAnyNeedle"]},
+            {"name": "Ripple Star 2 - Cake 2","access_rules": ["@canReachRippleStar2KingDedede, $hasNeedleVertical"]},
             {"name": "Ripple Star 2 - Ice Cream 1","access_rules": ["@canReachRippleStar2KingDedede"]},
             {"name": "Ripple Star 2 - Ice Cream 2","access_rules": ["@canReachRippleStar2KingDedede"]},
             {"name": "Ripple Star 2 - Maxim Tomato","access_rules": ["@canReachRippleStar2KingDedede"]},
@@ -1934,7 +1936,7 @@
             {"name": "Ripple Star 2 - Sandwich 1","access_rules": ["@canReachRippleStar2"]},
             {"name": "Ripple Star 2 - Sandwich 2","access_rules": ["@canReachRippleStar2KingDedede"]},
             {"name": "Ripple Star 2 - Sandwich 3","access_rules": ["@canReachRippleStar2KingDedede"]},
-            {"name": "Ripple Star 2 - Sandwich 4","access_rules": ["@canReachRippleStar2KingDedede, $hasAnyIce"]}
+            {"name": "Ripple Star 2 - Sandwich 4","access_rules": ["@canReachRippleStar2KingDedede, $hasIceVertical"]}
         ]
     },
     {

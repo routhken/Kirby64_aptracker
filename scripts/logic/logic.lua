@@ -25,31 +25,108 @@ function hasKingDedede()
 end
 
 function hasAnyBomb()
-    return has("bomb") or has("fireworks") or has("dynamite") or has("exploding_snowman") or has("exploding_gordo") or has("rocket_launcher") or has("lightbulb") or has("exploding_shuriken")
+    return has("bomb") or hasPowerCombo("fireworks") or hasPowerCombo("dynamite") or hasPowerCombo("exploding_snowman") or hasPowerCombo("exploding_gordo") or hasPowerCombo("rocket_launcher") or hasPowerCombo("lightbulb") or hasPowerCombo("exploding_shuriken")
 end
 
 function hasAnyStone()
-    return has("stone") or has("volcano") or has("mega_stone") or has("curling_stone") or has("drill") or has("dynamite") or has("geokinesis") or has("stone_friends")
+    return has("stone") or hasPowerCombo("volcano") or hasPowerCombo("mega_stone") or hasPowerCombo("curling_stone") or hasPowerCombo("drill") or hasPowerCombo("dynamite") or hasPowerCombo("geokinesis") or hasPowerCombo("stone_friends")
 end
 
 function hasAnyNeedle()
-    return has("needle") or has("fire_arrow") or has("drill") or has("snowflake") or has("clutter_needle") or has("exploding_gordo") or has("lightning_rod") or has("bear_trap")
+    return has("needle") or hasPowerCombo("fire_arrow") or hasPowerCombo("drill") or hasPowerCombo("snowflake") or hasPowerCombo("clutter_needle") or hasPowerCombo("exploding_gordo") or hasPowerCombo("lightning_rod") or hasPowerCombo("bear_trap")
+end
+
+function hasNeedleVertical()
+    return has("needle") or hasPowerCombo("fire_arrow") or hasPowerCombo("drill") or hasPowerCombo("snowflake") or hasPowerCombo("clutter_needle") or hasPowerCombo("exploding_gordo") or hasPowerCombo("lightning_rod")
 end
 
 function hasAnyIce()
-    return has("ice") or has("burning_ice_cube") or has("curling_stone") or has("snowball") or has("snowflake") or has("exploding_snowman") or has("refrigerator") or has("ice_skates")
+    return has("ice") or hasPowerCombo("burning_ice_cube") or hasPowerCombo("curling_stone") or hasPowerCombo("snowball") or hasPowerCombo("snowflake") or hasPowerCombo("exploding_snowman") or hasPowerCombo("refrigerator") or hasPowerCombo("ice_skates")
+end
+
+function hasIceVertical()
+    return hasPowerCombo("burning_ice_cube") or hasPowerCombo("curling_stone") or hasPowerCombo("snowball") or hasPowerCombo("snowflake") or hasPowerCombo("exploding_snowman") or hasPowerCombo("ice_skates")
 end
 
 function hasAnyBurn()
-    return has("burning") or has("phoenix") or has("volcano") or has("burning_ice_cube") or has("fire_arrow") or has("fireworks") or has("tinder_sheet") or has("flame_sword")
+    return has("burning") or hasPowerCombo("phoenix") or hasPowerCombo("volcano") or hasPowerCombo("burning_ice_cube") or hasPowerCombo("fire_arrow") or hasPowerCombo("fireworks") or hasPowerCombo("tinder_sheet") or hasPowerCombo("flame_sword")
 end
 
 function hasAnySpark()
-    return has("spark") or has("tinder_sheet") or has("geokinesis") or has("refrigerator") or has("lightning_rod") or has("lightbulb") or has("electrical_field") or has("lightsaber")
+    return has("spark") or hasPowerCombo("tinder_sheet") or hasPowerCombo("geokinesis") or hasPowerCombo("refrigerator") or hasPowerCombo("lightning_rod") or hasPowerCombo("lightbulb") or hasPowerCombo("electrical_field") or hasPowerCombo("lightsaber")
 end
 
 function hasAnyCutter()
-    return has("cutter") or has("flame_sword") or has("stone_friends") or has("ice_skates") or has("bear_trap") or has("exploding_shuriken") or has("lightsaber") or has("great_cutter")
+    return has("cutter") or hasPowerCombo("flame_sword") or hasPowerCombo("stone_friends") or hasPowerCombo("ice_skates") or hasPowerCombo("bear_trap") or hasPowerCombo("exploding_shuriken") or hasPowerCombo("lightsaber") or hasPowerCombo("great_cutter")
+end
+
+function hasCutterVertical()
+    return hasPowerCombo("stone_friends") or hasPowerCombo("ice_skates") or hasPowerCombo("exploding_shuriken") or hasPowerCombo("great_cutter")
+end
+
+function powerComboEval(combo, ability1, ability2)
+    return (has(combo) and (has(ability1) or has(ability2))) or 
+        (has(ability1) and has(ability2) and not has("setting_split_power_combos"))
+end
+
+function hasPowerCombo(abilitycombo)
+    if abilitycombo == "phoenix" then
+        return has("phoenix") or (has("burning") and not has("setting_split_power_combos"))
+    elseif abilitycombo == "mega_stone" then
+        return has("mega_stone") or (has("stone") and not has("setting_split_power_combos"))
+    elseif abilitycombo == "snowball" then
+        return has("snowball") or (has("ice") and not has("setting_split_power_combos"))
+    elseif abilitycombo == "clutter_needle" then
+        return has("clutter_needle") or (has("needle") and not has("setting_split_power_combos"))
+    elseif abilitycombo == "rocket_launcher" then
+        return has("rocket_launcher") or (has("bomb") and not has("setting_split_power_combos"))
+    elseif abilitycombo == "electrical_field" then
+        return has("electrical_field") or (has("spark") and not has("setting_split_power_combos"))
+    elseif abilitycombo == "great_cutter" then
+        return has("great_cutter") or (has("cutter") and not has("setting_split_power_combos"))
+    elseif abilitycombo == "volcano" then
+        return powerComboEval("volcano","burning","stone")
+    elseif abilitycombo == "burning_ice_cube" then
+        return powerComboEval("burning_ice_cube","burning","ice")
+    elseif abilitycombo == "fire_arrow" then
+        return powerComboEval("fire_arrow","burning","needle")
+    elseif abilitycombo == "fireworks" then
+        return powerComboEval("fireworks","burning","bomb")
+    elseif abilitycombo == "tinder_sheet" then
+        return powerComboEval("tinder_sheet","burning","spark")
+    elseif abilitycombo == "flame_sword" then
+        return powerComboEval("flame_sword","burning","cutter")
+    elseif abilitycombo == "curling_stone" then
+        return powerComboEval("curling_stone","stone","ice")
+    elseif abilitycombo == "drill" then
+        return powerComboEval("drill","stone","needle")
+    elseif abilitycombo == "dynamite" then
+        return powerComboEval("dynamite","stone","bomb")
+    elseif abilitycombo == "geokinesis" then
+        return powerComboEval("geokinesis","stone","spark")
+    elseif abilitycombo == "stone_friends" then
+        return powerComboEval("stone_friends","stone","cutter")
+    elseif abilitycombo == "snowflake" then
+        return powerComboEval("snowflake","ice","needle")
+    elseif abilitycombo == "exploding_snowman" then
+        return powerComboEval("exploding_snowman","ice","bomb")
+    elseif abilitycombo == "refrigerator" then
+        return powerComboEval("refrigerator","ice","spark")
+    elseif abilitycombo == "ice_skates" then
+        return powerComboEval("ice_skates","ice","cutter")
+    elseif abilitycombo == "exploding_gordo" then
+        return powerComboEval("exploding_gordo","needle","bomb")
+    elseif abilitycombo == "lightning_rod" then
+        return powerComboEval("lightning_rod","needle","spark")
+    elseif abilitycombo == "bear_trap" then
+        return powerComboEval("bear_trap","needle","cutter")
+    elseif abilitycombo == "lightbulb" then
+        return powerComboEval("lightbulb","bomb","spark")
+    elseif abilitycombo == "exploding_shuriken" then
+        return powerComboEval("exploding_shuriken","bomb","cutter")
+    elseif abilitycombo == "lightsaber" then
+        return powerComboEval("lightsaber","spark","cutter")
+    end
 end
 
 function hasGreatCutter()
