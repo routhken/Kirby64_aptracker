@@ -1,6 +1,13 @@
 {
     "versions": [
         {
+            "package_version": "1.0.4",
+            "download_url": "https://github.com/routhken/Kirby64_aptracker/releases/download/v1.0.4/Kirby64_aptracker.zip",
+            "sha256": "b5725f5355d4f6edfcf06dce8ad7bf8ab490d625047bc8d9817d0577a159271d",
+            "changelog": [
+                "- Fixed aqua star 1 adeleine gift not requiring adeleine"
+            ]
+        },{
             "package_version": "1.0.3",
             "download_url": "https://github.com/routhken/Kirby64_aptracker/releases/download/v1.0.3/Kirby64_aptracker.zip",
             "sha256": "c35798f5d0ecf441c102fa5dc99a9046452caeb81f88ea74df5c8ee2e680c283",

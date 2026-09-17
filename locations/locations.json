@@ -630,7 +630,7 @@
         "chest_unopened_img": "images/ui/food.png",
         "visibility_rules": ["setting_food_sanity"],
         "sections": [
-            {"name": "Aqua Star 1 - Adeleine Gift","access_rules": ["@canReachAquaStar1"]},
+            {"name": "Aqua Star 1 - Adeleine Gift","access_rules": ["@canReachAquaStar1, $hasAdeleine"]},
             {"name": "Aqua Star 1 - Cake","access_rules": ["@canReachAquaStar1"]},
             {"name": "Aqua Star 1 - Ice Cream","access_rules": ["@canReachAquaStar1"]},
             {"name": "Aqua Star 1 - Maxim Tomato","access_rules": ["@canReachAquaStar1"]},
