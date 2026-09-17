@@ -1,15 +1,23 @@
 {
     "versions": [
         {
+            "package_version": "1.0.3",
+            "download_url": "https://github.com/routhken/Kirby64_aptracker/releases/download/v1.0.3/Kirby64_aptracker.zip",
+            "sha256": "c35798f5d0ecf441c102fa5dc99a9046452caeb81f88ea74df5c8ee2e680c283",
+            "changelog": [
+                "- Fixed syntax error crashing lua script",
+                "- Fixed url link so updates should be automatic now"
+            ]
+        },{
             "package_version": "1.0.2",
-            "download_url": "https://github.com/routhken/Kirby64_tracker/releases/download/v1.0.2/Kirby64_aptracker.zip",
+            "download_url": "https://github.com/routhken/Kirby64_aptracker/releases/download/v1.0.2/Kirby64_aptracker.zip",
             "sha256": "334c3e90729768cb7e22c2828e07c827ce1671ed48b0c019dc29c38ebe5e2e67",
             "changelog": [
                 "- Updated locations and logic for apworld v0.4.0"
             ]
         },{
             "package_version": "1.0.1",
-            "download_url": "https://github.com/routhken/Kirby64_tracker/releases/download/v1.0.1/Kirby64_aptracker.zip",
+            "download_url": "https://github.com/routhken/Kirby64_aptracker/releases/download/v1.0.1/Kirby64_aptracker.zip",
             "sha256": "1a13a3798fd9ce4e41cd81f7ead15462cd80250248dadf50252fea4192ba8cea",
             "changelog": [
                 "- Fixed aqua star 3 1-up showing without 1-ups randomized",
@@ -17,7 +25,7 @@
             ]
         },{
             "package_version": "1.0.0",
-            "download_url": "https://github.com/routhken/Kirby64_tracker/releases/download/v1.0.0/Kirby64_aptracker.zip",
+            "download_url": "https://github.com/routhken/Kirby64_aptracker/releases/download/v1.0.0/Kirby64_aptracker.zip",
             "sha256": "d55a189dcb9fc04c0c66c5f4ce13051bc65f2f1b8b97fd8f5c1cf4677dd92aba",
             "changelog": [
                 "- Initial release",
