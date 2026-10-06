@@ -1,6 +1,13 @@
 {
     "versions": [
         {
+            "package_version": "1.0.5",
+            "download_url": "https://github.com/routhken/Kirby64_aptracker/releases/download/v1.0.5/Kirby64_aptracker.zip",
+            "sha256": "tba",
+            "changelog": [
+                "- Fixed Shiver star 1 food incorrectly classified as stars, added a missing food"
+            ]
+        },{
             "package_version": "1.0.4",
             "download_url": "https://github.com/routhken/Kirby64_aptracker/releases/download/v1.0.4/Kirby64_aptracker.zip",
             "sha256": "b5725f5355d4f6edfcf06dce8ad7bf8ab490d625047bc8d9817d0577a159271d",

@@ -1447,7 +1447,10 @@
             {"name": "Shiver Star 1 - Ice Cream 5","access_rules": ["@canReachShiverStar1WaddleDee"]},
             {"name": "Shiver Star 1 - Meat 1","access_rules": ["@canReachShiverStar1"]},
             {"name": "Shiver Star 1 - Meat 2","access_rules": ["@canReachShiverStar1WaddleDee"]},
-            {"name": "Shiver Star 1 - Meat 3","access_rules": ["@canReachShiverStar1WaddleDee"]}
+            {"name": "Shiver Star 1 - Meat 3","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Secret Snack 1","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Secret Snack 2","access_rules": ["@canReachShiverStar1WaddleDee"]},
+            {"name": "Shiver Star 1 - Secret Snack 3 (behind last Shard)","access_rules": ["@canReachShiverStar1WaddleDee"]}
         ]
     },
     {
@@ -1524,9 +1527,7 @@
             {"name": "Shiver Star 1 - Star 59","access_rules": ["@canReachShiverStar1WaddleDee"]},
             {"name": "Shiver Star 1 - Star 60","access_rules": ["@canReachShiverStar1WaddleDee"]},
             {"name": "Shiver Star 1 - Star 61","access_rules": ["@canReachShiverStar1WaddleDee"]},
-            {"name": "Shiver Star 1 - Star 62","access_rules": ["@canReachShiverStar1WaddleDee"]},
-            {"name": "Shiver Star 1 - Star 63","access_rules": ["@canReachShiverStar1WaddleDee"]},
-            {"name": "Shiver Star 1 - Star 64","access_rules": ["@canReachShiverStar1WaddleDee"]}
+            {"name": "Shiver Star 1 - Star 62","access_rules": ["@canReachShiverStar1WaddleDee"]}
         ]
     },
     {
